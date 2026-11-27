@@ -8,16 +8,16 @@ enabled = true
 
 #[[d1_databases]]
 #binding = "db"			# D1 binding name; do not change
-#database_name = ""		# D1 database name
-#database_id = ""		# D1 database id
+#database_name = "cloud-mail-db"		# D1 database name
+#database_id = "42c2ef3a-44e1-45d9-a6a1-2d3b3d23ad8b"		# D1 database id
 
 #[[kv_namespaces]]
 #binding = "kv"			# KV binding name; do not change
-#id = ""					# KV namespace id
+#id = "f4a7185f6e654b38b11f236eefa7b150"					# KV namespace id
 
 #[[r2_buckets]]
 #binding = "r2"			# R2 binding name; do not change
-#bucket_name = ""		# R2 bucket name
+#bucket_name = "cloud-mail-r2"		# R2 bucket name
 
 #[[send_email]]
 #name = "email"			# Cloudflare Email Sending; used first if configured
